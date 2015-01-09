@@ -1,8 +1,8 @@
 let mapleader=","
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#begin()
 
 " This is the Vundle package, which can be found on GitHub.
 " For GitHub repos, you specify plugins using the
@@ -18,7 +18,7 @@ Plugin 'morganp/SystemVerilog.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'powerline/powerline'
 Plugin 'klen/python-mode'
-
+call vundle#end()
 
 
 

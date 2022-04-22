@@ -13,7 +13,7 @@ call vundle#begin()
 Plugin 'gmarik/vundle'
 Plugin 'ervandew/supertab'
 Plugin 'flazz/vim-colorschemes'
-Plugin 'edsono/vim-matchit'
+Plugin 'adelarsq/vim-matchit'
 Plugin 'morganp/SystemVerilog.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'powerline/powerline'

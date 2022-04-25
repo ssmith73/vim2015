@@ -17,6 +17,7 @@ Plugin 'bling/vim-airline'
 Plugin 'adelarsq/vim-matchit'
 Plugin 'morganp/SystemVerilog.vim'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'goldie-lin/vim-dts'
 " Plugin 'powerline/powerline'
 Plugin 'klen/python-mode'
 call vundle#end()

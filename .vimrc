@@ -22,6 +22,10 @@ Plugin 'goldie-lin/vim-dts'
 Plugin 'klen/python-mode'
 call vundle#end()
 
+set path+=/usr/src/linux-headers-6.1.0-rpi4-common-rpi/include/linux/
+set path+=/home/ssmith/linux/include/
+set path+=**
+set includeexpr=substitute(v:fname,'\\.\\([ch]\\(pp\\)?\\)$','\\.h','')
 
 
 " We could also add repositories with a ".git" extension
